@@ -116,7 +116,7 @@
         <main class="main">
             <div class="card__main">
                     <a href="">
-                        <img src="https://media.vov.vn/sites/default/files/styles/front_large/public/2022-10/dao_hong_lan_16.jpg" alt="">
+                        <img src="https://media.vov.vn/sites/default/files/styles/front_large/public/2022-10/dao_hong_lan_16.jpg" alt="" >
                     </a>
                     <h2 class="big__title">Quyền Bộ trưởng Bộ Y tế: "Có tâm lý lo ngại, sợ sai ảnh hưởng đến phòng chống dịch"</h2>
                     <ul class="nav__list">
@@ -166,7 +166,7 @@
                     <div>
                         <h2 class="title-update">Mới cập nhật<i class="fas fa-caret-right"></i></h2>
                     </div>
-                    <div>
+                    <!-- <div>
                         <div class="card__news--content">
                             <div class="img">                        
                                 <a href="">
@@ -235,8 +235,28 @@
                         </div>
                        
                         <div class="content__title">Bộ GTVT trình phương án xử lý dứt điểm vướng mắc tại các dự án BOT giao thông</div>
-                    </div>
-                   
+                    </div> -->
+                    <div class="widget-list">
+                    <?php $getposts = new WP_query();
+                    $getposts->query('post_status=publish&showposts=6'); ?>
+                    <?php global $wp_query;
+                    $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                        <div class="item-clearfix">
+
+                            <?php lyly_thumbnail("small") ?>
+
+                            <div class="widget-item-content">
+                                <h3 class="item-title">
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                </h3>
+                                <a class="item-meta"><span><?php echo get_the_date('d - m - Y'); ?></span></a>
+                                <a class="item-comment"><?php the_author(); ?></a>
+                            </div>
+                        </div>
+                    <?php endwhile;
+                    wp_reset_postdata(); ?>
+    </div>
                 </div>
             </div>
            
