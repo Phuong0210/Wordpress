@@ -1,12 +1,12 @@
 /*
-Theme Name: News VOV
+Theme Name: News VOV Child
 Theme URI: https://afthemes.com/products/newsment-child-Phuong/
 Author: AF themes
 Author URI: https://afthemes.com
 Requires at least: WordPress 4.0
 Requires PHP: 5.6
 Tested up to: 6
-Description:  Newsment is a child theme of CoverNews. The theme has a new advertisement widget area, default header image as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout. You can implement layouts such as a personal blog, modern news journals, fashion magazines, travel blogging & magazine, vibrant news sites, and more. It is also compatible with Elementor, Gutenberg, and RTL language support along with the WooCommerce plugin that helps you to integrate an online business with your blog easily with the help of the available customizer options and widgets. The theme is SEO friendly with optimized code and awesome support.
+Description:  Newsment child is a child theme of CoverNews. The theme has a new advertisement widget area, default header image as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout. You can implement layouts such as a personal blog, modern news journals, fashion magazines, travel blogging & magazine, vibrant news sites, and more. It is also compatible with Elementor, Gutenberg, and RTL language support along with the WooCommerce plugin that helps you to integrate an online business with your blog easily with the help of the available customizer options and widgets. The theme is SEO friendly with optimized code and awesome support.
 See Demo: https://demo.afthemes.com/covernews/newsment/
 Support: https://afthemes.com/supports/
 Template: covernews
@@ -186,4 +186,11 @@ body #loader:after {
     font-size: 26px;
     line-height: 55px;
     }
+}
+/* Login form */
+.login-form{
+    width: 50%;
+    height: auto;
+    border: #FF8C02;
+    border-radius: 2px;
 }

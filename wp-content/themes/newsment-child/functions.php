@@ -8,6 +8,9 @@ Note: this function loads the parent stylesheet before, then child theme stylesh
 (leave it in place unless you know what you are doing.)
 */
 
+
+
+
 function newsment_enqueue_child_styles()
 {
     $min = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '' : '.min';
@@ -119,3 +122,38 @@ function newsment_filter_custom_header_args($header_args)
 }
 
 add_filter('covernews_custom_header_args', 'newsment_filter_custom_header_args', 1);
+
+//Function login page
+function redirect_login_page() { 
+    $login_page = home_url( '/login/' ); 
+    $page_viewed = basename($_SERVER['REQUEST_URI']); 
+     
+    if( $page_viewed == "wp-login.php" && $_SERVER['REQUEST_METHOD'] == 'GET') { 
+    wp_redirect($login_page); 
+    exit; 
+    } 
+   } 
+   add_action('init','redirect_login_page'); 
+   //Login Failed
+   function login_failed() { 
+    $login_page = home_url( '/login/' ); 
+    wp_redirect( $login_page . '?login=failed' ); 
+    exit; 
+   } 
+   add_action( 'wp_login_failed', 'login_failed' ); 
+   //Login failed pass or user
+   function verify_username_password( $user, $username, $password ) { 
+    $login_page = home_url( '/login/' ); 
+    if( $username == "" || $password == "" ) { 
+    wp_redirect( $login_page . "?login=empty" ); 
+    exit; 
+    } 
+   } 
+   add_filter( 'authenticate', 'verify_username_password', 1, 3); 
+   //Log Out
+   function logout_page() { 
+    $login_page = home_url( '/login/' ); 
+    wp_redirect( $login_page . "?login=false" ); 
+    exit; 
+   } 
+   add_action('wp_logout','logout_page');
