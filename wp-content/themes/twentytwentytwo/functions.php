@@ -65,8 +65,8 @@ add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
-
-if ( !function_exists('congbio_thumbnail') ) {
+// post
+if ( !function_exists('lyly_thumbnail') ) {
 	function lyly_thumbnail($size) {
 	  if( !is_single() && has_post_thumbnail() && !post_password_required() || has_post_format('image') ) : ?>
 	  <a href="<?php the_permalink(); ?>">
