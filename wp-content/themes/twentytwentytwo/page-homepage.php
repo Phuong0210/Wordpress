@@ -51,9 +51,9 @@
     <div class="container">
         <?php
 
-        $curl = curl_init();
+        $url = curl_init();
 
-        curl_setopt_array($curl, array(
+        curl_setopt_array($url, array(
             CURLOPT_URL => 'https://62b13ad7196a9e987031ac4a.mockapi.io/T-products',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
@@ -64,15 +64,13 @@
             CURLOPT_CUSTOMREQUEST => 'GET',
         ));
 
-        $response = curl_exec($curl);
+        $response = curl_exec($url);
 
-        curl_close($curl);
+        curl_close($url);
 
 
         $data = json_decode($response);
 
-        // echo "<b>Total APIs: $data->count </b><br>";
-        // $entries = $data->entries[0]->API;
         ?>
         <div class="post-container">
             <?php
@@ -80,9 +78,9 @@
             <div class="card" style="width: 15rem;">
                     <img class="card-img-top" src="<?= $value->image ?>" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $value->title ?></h5>
+                        <h3 class="card-title"><?= $value->title ?></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Let's go</a>
                     </div>
                     </div>
             <?php } ?>

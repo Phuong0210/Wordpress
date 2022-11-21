@@ -1,0 +1,32 @@
+2022-11-09T07:12:12+00:00 CRITICAL Uncaught Error: Failed opening required 'login.php' (include_path='C:\xampp\pp\htdocs\wordpress\wp-content\plugins\kirki/;C:\xampp\pp\htdocs\wordpress\wp-content\plugins\kirki/core;C:\xampp\pp\php\PEAR') in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\template-parts\header\header-four.php:54
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(772): require()
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\pp\\htd...', false, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\header.php(62): get_template_part('template-parts/...', 'four')
+#4 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\pp\\htd...', true, Array)
+#6 C:\xampp\pp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\pp\htdocs\wordpress\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#8 C:\xampp\pp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\pp\\htd...')
+#9 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\pp\\htd...')
+#10 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#11 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\template-parts\header\header-four.php on line 54
+
+2022-11-09T07:15:55+00:00 CRITICAL Uncaught Error: Failed opening required 'login.php' (include_path='C:\xampp\pp\htdocs\wordpress\wp-content\plugins\kirki/;C:\xampp\pp\htdocs\wordpress\wp-content\plugins\kirki/core;C:\xampp\pp\php\PEAR') in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\template-parts\header\header-four.php:54
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(772): require()
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\pp\\htd...', false, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\header.php(62): get_template_part('template-parts/...', 'four')
+#4 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\pp\\htd...', true, Array)
+#6 C:\xampp\pp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\index.php(15): get_header()
+#8 C:\xampp\pp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\pp\\htd...')
+#9 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\pp\\htd...')
+#10 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#11 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\template-parts\header\header-four.php on line 54
+

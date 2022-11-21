@@ -1,0 +1,181 @@
+2022-11-21T09:04:11+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\pp\\htd...')
+#7 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:04:18+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:04:22+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\theme-install.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:04:34+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\theme-install.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:05:01+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:12:04+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:12:11+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:12:19+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:12:33+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:12:59+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:13:12+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:14:03+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:15:09+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
+2022-11-21T09:22:46+00:00 CRITICAL Uncaught Error: Call to undefined function bosa_get_post_categories() in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php:1756
+Stack trace:
+#0 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bosa_ecommerce_shop_kirki_fields('')
+#1 C:\xampp\pp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\pp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\pp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#4 C:\xampp\pp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\pp\\htd...')
+#5 C:\xampp\pp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\pp\\htd...')
+#6 C:\xampp\pp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\pp\\htd...')
+#7 C:\xampp\pp\htdocs\wordpress\index.php(17): require('C:\\xampp\\pp\\htd...')
+#8 {main}
+  thrown in C:\xampp\pp\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\customizer\customizer.php on line 1756
+
