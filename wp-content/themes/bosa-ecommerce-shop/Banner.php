@@ -206,17 +206,17 @@ width: 22px;
 
           <img src="https://bizweb.dktcdn.net/100/411/009/themes/877814/assets/slider_1.jpg?1667276071688"
             style="width:100%">
-          <div class="text">Caption Text</div>
+          <div class="text"></div>
         </div>
         <div class="mySlides fade">
           <img src="https://bizweb.dktcdn.net/100/411/009/themes/877814/assets/slider_2.jpg?1667276071688"
             style="width:100%">
-          <div class="text">Caption Two</div>
+          <div class="text"></div>
         </div>
         <div class="mySlides fade">
           <img src="https://bizweb.dktcdn.net/100/411/009/themes/877814/assets/slider_1.jpg?1667276071688"
             style="width:100%">
-          <div class="text">Caption Three</div>
+          <div class="text"></div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
@@ -249,7 +249,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 </script>
 </body>

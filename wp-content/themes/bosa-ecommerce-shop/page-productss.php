@@ -24,7 +24,7 @@
   border-radius: 10px;
 }
 .card-img-top{
-  width: 220px;
+  width: 180px;
 }
 .btn-primary{
   color: rgb(36, 109, 165);
@@ -59,6 +59,7 @@
 					</div> -->
 				</div>
 			</div>
+			<hr>
 			<div>
 				<div class="row mt-3" style="--limit-column: 5">
 					<div class="product">
@@ -89,12 +90,12 @@
 							<div class="product-info">
 								<?php
 									foreach ($data as $value) { ?>
-									<div class="card" style="width: 15rem;">
+									<div class="card" style="width: 12rem;">
 										<img class="card-img-top" src="<?= $value->image ?>" alt="Card image
 										cap">
 										<div class="card-body">
 											<h6 id="product-name"><a
-													href="/laptop-asus-zenbook-flip-13-ux362fa-el205t" id="text-title"><?=
+													href="<?= $value->detail ?>" id="text-title"><?=
 														$value->title ?></a></h6>
 												<div class="price-box">
 													<span class="price"><?= $value->price ?>₫</span>
@@ -124,5 +125,7 @@
 
 											</div>
 										</div>
+										<br>
+										
 									</body>
 								</html>
